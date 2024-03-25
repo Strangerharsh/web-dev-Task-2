@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gupta Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <!-- creating Navbar  -->
+        <nav class="navbar">
+            <div id="logo">
+                <!-- creating logo -->
+                <img src="data:image/png;base64,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" alt="">
+                <div id="logo-title">Gupta Fitness Studio</div>
+            </div>
+            <div>
+                <!-- creating menubar -->
+                <div class="right">
+                    <ul>
+                       <li><a href="" >Home</a></li>
+                       <li><a href="">About</a></li>
+                       <li><a href="">Services</a></li>
+                       <li><a href="">Pricing</a></li>
+                       <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+        <div class="upper-content" >
+            <h2>Join the best gym of South Delhi now</h2>
+            <form action="">
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                </div>
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="Enter Your Age">
+                </div>
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="Enter Your Gender">
+                </div>
+                <div class="form-grp">
+                    <input type="number" name="" placeholder="Enter Your Number">
+                </div>
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="Enter Your Locality">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    
+</body>
+</html>
